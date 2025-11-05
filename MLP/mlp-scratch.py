@@ -14,6 +14,7 @@ d_out = 3          # output dimension
 # Generate dummy input data
 X = rng.normal(size=(n_samples, d_in))
 
+
 # Build random linear layers (weights and biases)
 def random_layer(in_dim, out_dim, scale=0.5):
     W = rng.normal(scale=scale, size=(in_dim, out_dim))
